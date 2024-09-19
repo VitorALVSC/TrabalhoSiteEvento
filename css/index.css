@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+:root {
+    --cor-padrao-site: rgba(19, 223, 223, 0.082);
+    --cor-textos: rgb(8, 80, 114);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.navbar {
+    background-color: var(--cor-padrao-site) !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 70px;
+    font-weight: bold;
+    color: var(--cor-textos);
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.fonte-textos {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: var(--cor-textos);
+    font-size: 25px;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, max-content));
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer {
+    background-color: var(--cor-padrao-site);
+}
