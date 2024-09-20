@@ -34,6 +34,10 @@
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
+.posicao-carousel {
+    margin: 30px;
+}
+
 .textos-principais {
     font-family: 'Sedgwick Ave Display', cursive;
     color: var(--cor-textos);

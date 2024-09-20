@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Eventos</title>
 </head>
 <body>
@@ -30,53 +30,80 @@
     </nav>
     <main>
         <h1 class="titulo">Exposição de Arte Urbana</h1>
+        <div class="posicao-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="07000">
+                        <img src="assets/img/Os-Gemeos-Vancouver-Biennale-the-Planet-1024x520.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="07000">
+                        <img src="assets/img/binho-ribeiro-personagens-barata.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="07000">
+                        <img src="assets/img/eduardo-kobra-miami-wynwood-eua-florida-mural-arte.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
         <div class="container">
             <div class="grid-cards">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">Murais que Contam Histórias</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">Grafite e Sustentabilidade</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">A Cidade como Tela</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">Cores da Comunidade</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">Street Art: Vozes da Margem</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="img/Logo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title textos-principais">Card title</h5>
-                        <p class="card-text textos-secundarios">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title textos-principais">Arte na Rua: Nova Perspectiva</h5>
                         <a href="#" class="botoes">Saiba mais</a>
                     </div>
                 </div>
