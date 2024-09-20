@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 :root {
     --cor-padrao-site: rgba(19, 223, 223, 0.082);
     --cor-textos: rgb(8, 80, 114);
+    --cor-botoes: rgba(9, 173, 173, 0.247);
+    --cor-botoes-hover: rgb(8, 80, 114);
+    --cor-textos-hover: #ffffff;
 }
 
 * {
@@ -30,10 +34,16 @@
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
-.fonte-textos {
+.textos-principais {
     font-family: 'Sedgwick Ave Display', cursive;
     color: var(--cor-textos);
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.textos-secundarios {
+    font-family: 'Karla', cursive;
+    color: var(--cor-textos);
+    font-size: 16px;
 }
 
 .container {
@@ -52,10 +62,30 @@
     margin-bottom: 20px;
 }
 
+.botoes {
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color: var(--cor-botoes);
+    color: var(--cor-textos);
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.botoes:hover {
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color: var(--cor-botoes-hover);
+    color: var(--cor-textos-hover);
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 .footer {
     background-color: var(--cor-padrao-site);
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
