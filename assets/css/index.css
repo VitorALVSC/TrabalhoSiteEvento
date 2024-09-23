@@ -34,6 +34,11 @@
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
+.gri-descricao-evento {
+    margin: 30px;
+    text-align: center;
+}
+
 .posicao-carousel {
     margin: 30px;
 }
