@@ -45,16 +45,6 @@
     justify-items: center;
 }
 
-.grid-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, max-content));
-    width: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
 .textos-principais {
     font-family: 'Sedgwick Ave Display', cursive;
     color: var(--cor-textos);
