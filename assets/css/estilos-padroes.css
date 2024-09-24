@@ -34,25 +34,9 @@
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
-.gri-descricao-evento {
+.grid-descricao {
     margin: 30px;
     text-align: center;
-}
-
-.posicao-carousel {
-    margin: 30px;
-}
-
-.textos-principais {
-    font-family: 'Sedgwick Ave Display', cursive;
-    color: var(--cor-textos);
-    font-size: 20px;
-}
-
-.textos-secundarios {
-    font-family: 'Karla', cursive;
-    color: var(--cor-textos);
-    font-size: 16px;
 }
 
 .container {
@@ -69,6 +53,18 @@
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
+}
+
+.textos-principais {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: var(--cor-textos);
+    font-size: 20px;
+}
+
+.textos-secundarios {
+    font-family: 'Karla', cursive;
+    color: var(--cor-textos);
+    font-size: 16px;
 }
 
 .botoes {
@@ -88,15 +84,6 @@
     transition: 0.5s;
 }
 
-.footer {
-    background-color: var(--cor-padrao-site);
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 .posicao-botao-inscreva-se {
     display: flex;
     flex-direction: column;
@@ -107,4 +94,13 @@
 .botao-inscreva-se {
     font-size: 25px;
     padding: 8px 32px;
+}
+
+.footer {
+    background-color: var(--cor-padrao-site);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
